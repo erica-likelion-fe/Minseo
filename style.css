@@ -1,0 +1,168 @@
+
+
+textarea {
+  width: 370px;
+  height: 30px;
+  padding: 12px;
+  font-size: 12px;
+  border: 2px solid rgb(96, 88, 88);
+  border-radius: 10px;
+}
+
+
+.border{
+  /*box design*/
+  background-color: rgb(242, 242, 237);
+
+  width: 510px;
+  height: auto;
+
+  border-radius: 25px; /** 모서리 둥글게 **/
+  margin: auto;
+}
+
+
+/* "회원가입" 박스 디자인 */
+
+.mytitle{
+
+  background-color: rgb(96, 88, 88);
+  margin: auto;
+  
+  /** "회원가입" 수직 가운데정렬 **/
+  position: relative;
+
+
+  width: 400px;
+  height: 50px;
+
+  border: 2px solid rgb(96, 88, 88);
+  border-radius: 20px; /*모서리 둥글게*/
+ 
+}
+
+/* "회원가입" 글자 상세 디자인 */
+
+.mytitle h1{
+  /*font*/
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 650;
+  font-size: 25px;
+  font-style: normal;
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+
+.infobox label {
+      font-size: 14px;
+      font-weight: normal;
+      color: rgb(96, 88, 88);
+    }
+
+
+
+select{
+  width: 400px;
+  height: 35px;
+  padding: 6px;
+  font-size: 12px;
+  border: 2.3px solid rgb(96, 88, 88);
+  border-radius: 10px;
+}
+
+
+.infobox{
+
+  width: 400px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+
+.infobox h3{
+
+  font-family: "Do Hyeon", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  font-style: bold;
+  color: rgb(96, 88, 88);
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
+.infoinput{
+
+  text-align: left;
+  margin: auto;
+
+}
+
+input {
+  width: 370px;
+  height: 10px;
+  padding: 12px;
+  font-size: 12px;
+  border: 2px solid rgb(96, 88, 88);
+  border-radius: 10px;
+}
+
+.introductiontext {
+  font-size:12px;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  text-align: left;
+}
+
+.introductiontext label{
+      font-size: 14px;
+      font-weight: normal;
+      color: rgb(96, 88, 88);
+}
+
+
+.hobby label {
+  
+  font-size: 13px;
+
+}
+
+
+
+/* 버튼 위치 스타일 */
+.submitbutton,.resetbutton {
+  text-align: center; /* 버튼을 가운데 정렬 */
+  margin-top: 10px; /* 버튼 위쪽 간격 */
+}
+
+.submitbutton input, .resetbutton input {
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 13px;
+  color: white;
+  background-color: rgb(96, 88, 88);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 400px; 
+  transition: background-color 0.3s ease;
+  margin-top: 5px; 
+}
+
+/* 버튼 hover 효과 */
+.submitbutton input:hover, .resetbutton input:hover {
+  background-color: #4a3b2e; /* hover 시 배경색 변경 */
+}

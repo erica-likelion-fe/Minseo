@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="guessnumber.css">
+    <title>Guess Number</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class = "title">
+            <h1>Guess the Number</h1>   
+        </div>
+        <br/>
+        <div class = "subtitle">
+            <h2>👾 Guess the number between 1 and 100! 👾</h2>
+        </div>
+    
+        <br/>
+
+        <div class = "contents">
+            <div class = "userinterface">   
+                <input type="number" id="input" placeholder="Please enter a number">
+                <br/>
+                <div class = "buttons">
+                    <button onclick="checkInput()">submit</button>
+                    <button onclick="resetGame()">reset</button>
+                </div>
+            
+            
+            <br/>
+            </div>
+            
+            
+            <div class = "feedback">
+                <p id="attempts"></p>
+                <p id="result"></p>
+                <p id="hint"></p>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+    
+    <script src="guessnumber.js"></script> 
+</body>
+</html>

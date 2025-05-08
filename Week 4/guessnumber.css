@@ -1,0 +1,136 @@
+
+.pixelify-sans {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+  
+
+.container {
+    margin: 10px auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+    text-align: flex-start;
+    padding: 10px;
+  
+  
+    width: 600px;
+    height: 500%;
+  
+   
+  }
+
+.title h1{
+    /*font*/
+    
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    font-style: bold;
+    color: rgb(175, 255, 64);
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+.subtitle h2{
+    /*font*/
+    font-family: "Pixelify Sans", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+ 
+.userinterface {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 300px;
+}
+
+input {
+    
+    width: 170px;
+    height: 40px;
+    padding: 30px;
+    font-size: 30px;
+    color:rgb(175, 255, 64);
+    background-color: rgb(0, 0, 0);
+    border-radius: px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+  }
+
+.buttons { 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    justify-content: flex-start;
+    
+    align-items: center;
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+  }
+  .buttons button{
+    font-family: "Pixelify Sans", sans-serif;
+    color: greenyellow;
+    background-color: rgb(0, 0, 0);
+    width: 110px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    display: inline-block; /* flex 대신 */
+    cursor: pointer;
+  }
+
+.buttons button:hover{
+    background-color: rgb(175, 255, 64);
+    color: black;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+  }
+
+.feedback{
+    
+    font-family: "Pixelify Sans", sans-serif;
+    color: white;
+    font-size: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 20px;
+    
+    
+  }
+
+
+  
+  
+.contents {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin: 40px auto;
+        margin-left: 30px;
+        
+  }
+

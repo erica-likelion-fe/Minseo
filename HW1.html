@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minseo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <Style>
+        
+    </Style>
+</head>
+
+<body>
+    
+    <div class="border">
+        <br>
+        <br>
+        <div class="mytitle"> 
+            <h1>회원가입</h1>
+        </div>
+        <br>
+        
+        <form action="/submit" method="POST">
+             
+            <div class="infobox">   
+                <br>
+                <h3>기본정보</h3>
+                
+
+                
+                <div class="infoinput">
+
+                    <br>
+                    <label for="username">ID</label>
+                    <br>
+                    <input type="text" id="username" name="username" placeholder="아이디입력" required maxlength="15"><br>
+                
+                    
+                    <br>
+                    
+                        <label for="password">Password</label>
+                        <br>
+                        <input type="password" id="password" name="password" placeholder="8자 이상 입력" required minlength="8"><br>
+                    
+                    
+                    <br>
+                        <label for="email">Email</label>
+                        <br>
+                        <input type="email" id="email" name="email" placeholder="example@example.com" required><br>
+            
+                   
+                    <br>
+                    <label for="role">Role</label>
+                    <br>
+                    <select name="role" id="">
+                        <option value="frontend">프론트엔드</option>
+                        <option value="backend">백엔드</option>
+                        <option value="design">기획/디자인</option>
+                    </select>
+                    <br>
+                </div>
+            
+            </div> 
+
+            <br>
+
+            <div class="introductiontext">
+                        
+                        <label for="">자기소개: </label>
+                        <br>
+                        <textarea name="" id="" rows="3" cols="30"></textarea>
+                        </br>
+            
+            </div>
+            
+            <br>
+            <div class="hobby">
+                <label><input type="checkbox" />전시 관람</label> 
+                <label><input type="checkbox"/>농구</label>
+                
+            </div>
+
+            <br>
+            <div class="submitbutton"> 
+                <input type="submit" value="가입"/>
+            </div>
+
+            
+            <div class="resetbutton"> 
+                <input type="reset" value="초기화"/>
+            </div>
+            
+            <br>
+
+            
+        </form>
+    </div>
+
+</body>
+</html>

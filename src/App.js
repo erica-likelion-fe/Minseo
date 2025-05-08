@@ -8,7 +8,7 @@ import {Create} from './Create';
 // import './App.css';
 
 function App() {
-  const [index, setIndex] = React.useState(['제목1', '제목2', '제목3']);
+  const [index, setIndex] = React.useState(['Create', 'Html', 'CSS','JS']);
   const [input, setInput] = React.useState('');
   
   const IndexAdd = () => {

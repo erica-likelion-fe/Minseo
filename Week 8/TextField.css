@@ -1,0 +1,14 @@
+.TextField{
+    width: 906px;
+    height: 91px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border: 1px solid #000000;
+    
+    gap: 20px;
+    background-color: #ffffff;
+    font-weight: 500;;
+    color: #B2B2B2;
+    font-size: 36px;
+    padding: 24px 46px; 
+}

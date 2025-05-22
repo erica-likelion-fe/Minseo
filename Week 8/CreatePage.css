@@ -1,0 +1,36 @@
+.Header {
+    width: 737px;
+    height: 151px;
+    margin-top: 213.64px;
+    margin-left: 351.5px;
+
+    display: flex;
+    justify-content: center;
+
+    /* background-color: rgb(138, 53, 175); */
+    font-style: italic;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 0;
+    
+}
+
+  .CreatePage {
+    width: 1440px;
+    height: 2400px;
+    background-color: rgb(213, 173, 230);
+   
+
+    
+    display: flex;
+    flex-direction: column;
+       
+}
+
+.CreateFile {
+    display: flex;
+    flex-direction: column;
+    margin-top: 731.64px;
+
+}

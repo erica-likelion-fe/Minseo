@@ -1,0 +1,23 @@
+.DefaultButton{
+    width: 271px;
+    height: 91px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid #000000;
+    
+    
+    /* padding-top: 24px;
+    padding-left: 48px;
+    padding-bottom: 24px;
+    padding-right: 48px; */
+    gap: 10px;
+    background-color: #ffffff;
+
+    
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0;
+    text-align: center;
+}
+
